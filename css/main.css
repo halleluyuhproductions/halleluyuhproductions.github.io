@@ -148,7 +148,7 @@ hr {
 }
 
 .profileImg{
-    width: 150px;
+    width: 20%;
     float: left;
     padding-right: 50px;
 }
@@ -156,6 +156,7 @@ hr {
 .members{
     display: block;
     margin-bottom: 100px;
+    height: auto;
 }
 
 .members p{
