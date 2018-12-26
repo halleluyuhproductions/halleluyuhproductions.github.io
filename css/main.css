@@ -1,0 +1,155 @@
+/********** GLOBALS **********/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1{
+    font-size: 30pt;
+    font-weight: 400;
+    color: #565656
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #565656
+}
+
+a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #565656;
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 50%;
+    padding-right: 25%;
+    padding-left: 25%;
+    text-align: center;
+}
+
+
+
+
+/********** Main CSS **********/
+
+.profile {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    align-content: center;
+    width: 300px;
+}
+
+.headline{
+    margin-bottom: 25px;
+}
+
+.categoryTitle{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.social{
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.social ul li{
+    display: inline;
+    margin: 10px;
+}
+
+.nav{
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.nav ul li{
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.currentPage{
+    text-decoration: underline;
+}
+
+
+/********** Gallery **********/
+
+.gallery{
+    margin-top: 50px;
+}
+
+.column1{
+    float: left;
+    width: 49.5%;
+}
+
+.column2{
+    float: right;
+    width: 49.5%;
+}
+
+.gallery-img{
+    width: 100%;
+    float: left;
+}
+
+.column1 .gallery-img{
+    padding: 1%;
+    padding-right: .5%;
+}
+
+.column2 .gallery-img{
+    padding: 1%;
+    padding-left: .5%;
+}
+
+
+.developmentNav a{
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 1300px){
+    .wrapper{
+        width: 80%;
+        padding-right: 10%;
+        padding-left: 10%;
+        text-align: center;
+    }
+    
+    p {
+        font-size: 12pt;
+    }
+    
+    .nav a{
+        font-size: 16pt;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
