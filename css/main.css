@@ -82,12 +82,69 @@ a{
     text-align: center;
 }
 
+.nav ul li a{
+    font-size: 20pt;
+}
+
 .currentPage{
     text-decoration: underline;
 }
 
 .content{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contentTitle{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+.footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footerContent{
+    text-align: center;
+}
+
+.footerTitle{
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+
+.socialFooter{
+    list-style-type: none;
     margin-top: 30px;
+}
+
+.socialFooter ul li{
+    display: inline;
+    margin: 10px;
+}
+
+.socialFooter ul li img{
+    width: 25px;
+}
+
+.copyright{
+    font-size: 12pt;
 }
 
 /********** Gallery **********/
@@ -125,6 +182,11 @@ a{
 .developmentNav a{
     font-weight: bold;
 }
+
+
+
+
+/********** Gallery **********/
 
 
 
