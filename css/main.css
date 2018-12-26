@@ -147,6 +147,47 @@ hr {
     margin-top: 5px;
 }
 
+.profileImg{
+    width: 150px;
+    float: left;
+    padding-right: 50px;
+}
+
+.members{
+    display: block;
+    margin-bottom: 100px;
+}
+
+.members p{
+    text-align: left;
+}
+
+.memberName{
+    text-align: left;
+}
+
+.memberPosition{
+    font-weight: bold;
+}
+
+.memberDescription{
+    font-size: 10pt;
+}
+
+.memberSocials{
+    list-style-type: none;
+    margin-top: 10px;
+    float: left;
+}
+
+.memberSocials ul li{
+    display: inline;
+    margin-right: 5px;
+}
+
+.memberSocials ul li img{
+    width: 20px;
+}
 /********** Gallery **********/
 
 .gallery{
@@ -164,7 +205,7 @@ hr {
 }
 
 .gallery-img{
-    width: 100%;
+    width: 50%;
     float: left;
 }
 
